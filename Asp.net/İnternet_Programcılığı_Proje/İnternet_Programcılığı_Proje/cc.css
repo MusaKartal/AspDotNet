@@ -1,0 +1,100 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/arkaplan.jpg');
+    background-color: #cccccc;
+    height: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    
+    color: white;
+    text-align: center;
+    margin: 0;
+    text-shadow: 1px 1px 3px #ff0000;
+    font-family: monospace, arial, helvetica;
+    padding: 60px 220px 0px 30px;
+}
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    background-color: black;
+}
+
+
+.logo {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+
+.gecis {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tree {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}
+
+.tree1 {
+    width: 20%;
+    float: left;
+    overflow:hidden;
+}
+
+.govde {
+    width: 80%;
+    float: left;
+}
+
+.HakBaslık {
+    width: 100%;
+    height: 30px;
+
+}
+.HakBaslık h2 {
+        font-size:40px;
+ }
+.slogan {
+    margin-top: 40px;
+}
+.slogan h3 {
+    opacity: 0.6;
+ }
+.HakGiris {
+    margin-top: 40px;
+}
+.HakGiris p {
+    opacity:0.5;
+    font-size:20px;
+}
+
+.AnaGovde {
+    height:350px;
+}
+.AnaGovde p {
+        color: black;
+        margin: 0;
+        text-shadow: 1px 1px 3px #ff0000;
+        font-family: monospace, arial, helvetica;
+        padding: 60px 220px 0px 30px;
+        font-size:15px;
+ }
+

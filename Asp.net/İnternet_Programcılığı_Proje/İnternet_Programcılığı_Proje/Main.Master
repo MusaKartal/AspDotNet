@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="İnternet_Programcılığı_Proje.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+     <link href="cc.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <section>
+            <div class="header">
+
+                <img src="img/cc_logo.jpg" class="logo" />           
+                <h1>Crossover Classics</h1>
+            </div>
+
+            <div class="gecis"> 
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                </asp:SiteMapPath>
+            </div>
+
+
+
+            <div class="tree">
+                <div class="tree1">
+                <strong>
+                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" CssClass="auto-style5" ExpandDepth="1" OnSelectedNodeChanged="TreeView1_SelectedNodeChanged" Height="810px" Width="42px">
+                </asp:TreeView>
+                </strong>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                </div>
+                <div class="govde">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+
+           </section>
+    </form>
+</body>
+</html>

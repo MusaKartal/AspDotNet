@@ -1,0 +1,20 @@
+CREATE TABLE [dbo].[Basvuru]
+(
+	[Id] INT NOT NULL PRIMARY KEY Identity, 
+    [AdSoyad] VARCHAR(100) NOT NULL, 
+    [Cinsiyet] VARCHAR NULL, 
+    [UyrukId] INT NULL references Ulke (Id), 
+    [DogumTarihi] DATE NULL, 
+    [Sehir] INT NULL references Sehir (Id), 
+    [Email] VARCHAR(100) NULL, 
+    [Telefon] VARCHAR(100) NULL, 
+    [Aciklama] VARCHAR(1000) NULL, 
+    [EgitimDurumu] VARCHAR NULL, 
+    [EgitimBasTarih] DATE NULL, 
+    [EgitimBitTarih] DATE NULL, 
+    [DevamDurumu] VARCHAR NULL, 
+    [LiseAdi] INT NULL references Lise (Id), 
+    [UnvAdi] INT NULL references Universite (Id), 
+    [OzgecmisDosyaAd] VARCHAR(1000) NULL, 
+    [BasvuruSonucu] VARCHAR NULL
+)

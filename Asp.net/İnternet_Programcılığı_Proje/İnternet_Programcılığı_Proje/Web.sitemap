@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="AnaSayfa.aspx" title="Ana Sayfa"  description="" >
+		<siteMapNode url="Hakkimizda.aspx" title="Hakkımızda"  description="" />
+		<siteMapNode url="" title="Ürünlerimiz"  description="">
+			<siteMapNode url="Dvd-Cd.aspx" title="Filmler"  description="" />
+			<siteMapNode url="https://www.kostüme.com/themen/superhelden/marvel-kostuem.html" title="Kostümler"  description="" />
+			<siteMapNode url="Kirtasiye.aspx" title="Kırtasiye"  description="" />
+			<siteMapNode url="Kitaplar.aspx" title="Kitaplar"  description="" />
+			<siteMapNode url="https://store.steampowered.com/app/997070/Marvels_Avengers/" title="Oyunlar"  description="" />
+		</siteMapNode>
+		<siteMapNode url="https://www.miniso.com.tr/marvel" title="Mağazalarımız"  description="">
+			<siteMapNode url="" title="İnsan Kaynakları"  description="">
+			<siteMapNode url="BasvuruFormu.aspx" title="Kayıt Formu"  description="" />
+			<siteMapNode url="BasvuruDegerlendirme.aspx" title="Başvuru Değerlendirme"  description="" >
+				<siteMapNode url="BasvuruSonuc.aspx" title="Başvuru Sonuç"  description="" />
+				</siteMapNode>
+		<siteMapNode url="Iletişim.aspx" title="İletişim"  description="" />
+		</siteMapNode>
+	</siteMapNode>
+	</siteMapNode>
+</siteMap>
